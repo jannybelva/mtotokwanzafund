@@ -1,0 +1,118 @@
+/********** responsive **********/
+@media (max-width: 767px){
+h1{font-size:30px;line-height:30px; width:95%;margin-bottom:1.5rem}
+h2{font-size: 26px!important;line-height: 32px!important;}
+.footer a.p-4{padding-bottom:.225rem!important;padding-top:.225rem!important}
+.swiper-slide img.banner-mobile{
+  min-height:450px;
+  max-height: 450px;
+}
+
+.inner-banner.swiper-wrapper .swiper-slide img.banner-mobile{
+  min-height:300px;
+  max-height:300px;
+}
+
+.main-banner h2{font-size: 32px!important;line-height: 38px!important; width: 98%;}
+.inner-banner.swiper-wrapper .mx-auto{
+  position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+.swiper-slide .container{padding-left:3.5rem;padding-right:3.5rem;}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    left: 3.5rem;
+}
+a.global-btn.hvr-radial-out, button.global-btn.hvr-radial-out{background: #FF6B00;padding: 6px 18px;}
+/*
+.header .menu-icon .navicon:before, .header .menu-icon .navicon:after {background-color:#FF6B00!important;}
+.header .menu-icon .navicon:before, .header .menu-icon .navicon:after {background: #FF6B00;}*/
+.main-banner a.global-btn.hvr-radial-out{font-size:11px;}
+ul.menu li{
+  margin-top:1rem;
+  padding:1rem 0rem 0rem 0px!important;
+  margin-left:0px!important;
+  border-top: solid 1px rgba(255,255,255, 0.0485);{}
+}
+.header .menu-btn:checked ~ .menu {padding: 7rem 0rem;position: absolute;top: 0px;width: 100%;margin-top: 0px;}
+.header .menu-icon {
+z-index: 9999;
+position: absolute;
+/* left: 0; */
+right: 1rem;
+top: 1.5rem;
+
+}
+.header li a {display: block;text-decoration: none;padding-inline: 1.215rem;}
+
+.wrap-cont .wrapper-img figure img{
+  min-height: 200px!important;
+  max-height: 200px!important;
+  width: 100%;
+}
+
+.gallery img{
+  min-height:220px;
+  max-height:220px;
+}
+
+.birthday-home .wrap-cont .wrapper-img figure img {
+min-height: 324px !important;
+max-height: 324px !important;
+}
+
+.birthday-home.tint-20-bg {
+    order: 4;}
+
+
+}
+
+/* Custom scrollbar styles for mobile devices */
+@media (max-width: 1024px) {
+  .custom-scrollbar {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #888 #f0f0f0; /* Firefox */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    height: 8px; /* Height of the scrollbar */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Track color */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888; /* Thumb color */
+    border-radius: 4px; /* Rounded corners */
+    border: 2px solid #f0f0f0; /* Padding around thumb */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Thumb hover color */
+  }
+}
+
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+    
+  }
+  .header li a {
+    padding: 0px .5rem;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+}
