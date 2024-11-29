@@ -1,7 +1,59 @@
 /********** responsive **********/
+@media (max-width:1280px){
+.banner-heading{padding-left:2rem}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction
+{left: 4rem;}
+.icon-banner.swiper-button-prev,.icon-banner.swiper-rtl .icon-banner.swiper-button-next {left:1%;}
+.icon-banner.swiper-button-next, .icon-banner.swiper-rtl .icon-banner.swiper-button-prev {right:1%;}
+h2{font-size: 1.5rem;line-height: 2rem;}
+.our-blogs h2{font-size:1.5rem!important;line-height:2rem!important;}
+.swiper-slide h2{font-size:3rem!important;line-height:1rem!important;}
+p{font-size: 0.875rem;line-height: 1.25rem;}
+a.global-btn.hvr-radial-out, button.global-btn.hvr-radial-out{font-size: 0.75rem;line-height: 1rem;}
+.our-blogs p{font-size: 0.875rem;line-height: 1.25rem;}
+.our-blogs .flex.tint-33.text-sm.lg\:text-base{font-size:0.75rem;line-height: 1rem;}
+.footer a{font-size:14px!important}
+.header li a {font-size: 14px;}
+}
+/********** responsive 1024 **********/
+@media (max-width: 1024px) {
+.lg\:px-0,.container{
+  padding-left:1.5rem!important;
+  padding-right:1.5rem!important;
+}
+.our-blogs h2 {font-size: 1.25rem!important;line-height: 1.75rem!important;}
+.swiper-slide .banner-heading{padding-left:3rem;}
+.icon-banner.swiper-pagination{padding-left:3rem;}
+.radius-28 {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+.radius-28 img{width:30px}
+h2{font-size: 22px !important;line-height: 28px !important;}
+.header li a {padding: 0px .0rem;font-size: 12px;}
+a.global-btn.hvr-radial-out, button.global-btn.hvr-radial-out {padding:4px 12px;font-size:12px;}
+h1{font-size: 3rem;line-height: 1;}
+h4{font-size: 1.125rem;line-height: 1.75rem;}
+h3{font-size: 2.25rem;line-height: 2.5rem;}
+/* Custom scrollbar styles for mobile devices */
+.custom-scrollbar {scrollbar-width: thin; /* Firefox */scrollbar-color: #888 #f0f0f0; /* Firefox */}
+.custom-scrollbar::-webkit-scrollbar {height: 8px; /* Height of the scrollbar */}
+.custom-scrollbar::-webkit-scrollbar-track {background: #f0f0f0; /* Track color */}
+.custom-scrollbar::-webkit-scrollbar-thumb {background-color: #888; /* Thumb color */border-radius: 4px; /* Rounded corners */border: 2px solid #f0f0f0; /* Padding around thumb */}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {background-color: #555; /* Thumb hover color */}
+
+}
+
 @media (max-width: 767px){
+.header li a {padding:0px  1rem;}
+.swiper-slide .banner-heading {padding-left: 2rem;}
+.inner-banner.swiper-wrapper .swiper-slide .banner-heading{padding-left: 0px;}
+.icon-banner.swiper-pagination {padding-left: 0rem;}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {top:-40px;}
+.logo-p .swiper-button-next, .icon-banner.swiper-rtl .logo-p .swiper-button-prev{display: none;}
+.logo-p .swiper-button-next, .icon-banner.swiper-rtl .logo-p .swiper-button-prev{display:none;}
 h1{font-size:30px;line-height:30px; width:95%;margin-bottom:1.5rem}
-h2{font-size: 26px!important;line-height: 32px!important;}
 .footer a.p-4{padding-bottom:.225rem!important;padding-top:.225rem!important}
 .swiper-slide img.banner-mobile{
   min-height:450px;
@@ -13,14 +65,17 @@ h2{font-size: 26px!important;line-height: 32px!important;}
   max-height:300px;
 }
 
+.about-us img, .impact img{
+    min-height:300px!important;
+  max-height:300px!important;
+}
+.xl:container.mx-auto.px-4.lg:px-0.relative.-inset-y-14g:inset-0{padding-left: 0px;}
+.bg-white.text-white.p-10.pt-5.rounded-r-none.rounded-br-2xl.rounded-tr-none{border-radius:0px 0px 16px 16px;}
+.tint-20-bg.text-white.p-10.pt-5.rounded-t-none.rounded-ss-none.rounded-bl-2xl{border-radius:0px 0px 0px 0px;}
+.bg-white.block.rounded-r-2xl.rounded-br-none{border-radius:16px 16px 0px 0px;background-color: #FFE1CC!important;}
 .main-banner h2{font-size: 32px!important;line-height: 38px!important; width: 98%;}
-.inner-banner.swiper-wrapper .mx-auto{
-  position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
+.inner-banner.swiper-wrapper .mx-auto{position: absolute;width: 100%;display: block;}
+.inner-banner.swiper-wrapper  .icon-w.flex{margin-top: .5rem}
 .swiper-slide .container{padding-left:3.5rem;padding-right:3.5rem;}
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
     left: 3.5rem;
@@ -46,65 +101,24 @@ top: 1.5rem;
 
 }
 .header li a {display: block;text-decoration: none;padding-inline: 1.215rem;}
-
 .wrap-cont .wrapper-img figure img{
   min-height: 200px!important;
   max-height: 200px!important;
   width: 100%;
 }
 
-.gallery img{
-  min-height:220px;
-  max-height:220px;
-}
-
-.birthday-home .wrap-cont .wrapper-img figure img {
-min-height: 324px !important;
-max-height: 324px !important;
-}
-
-.birthday-home.tint-20-bg {
-    order: 4;}
-
+.gallery img{min-height:220px;max-height:220px;}
+.birthday-home .wrap-cont .wrapper-img figure img {min-height: 324px !important;max-height: 324px !important;}
+.birthday-home.tint-20-bg {order: 4;}
+.logo-p .swiper-button-prev, .icon-banner.swiper-rtl .logo-p .swiper-button-next {display:none!important;}
 
 }
 
-/* Custom scrollbar styles for mobile devices */
-@media (max-width: 1024px) {
-  .custom-scrollbar {
-    scrollbar-width: thin; /* Firefox */
-    scrollbar-color: #888 #f0f0f0; /* Firefox */
-  }
-
-  .custom-scrollbar::-webkit-scrollbar {
-    height: 8px; /* Height of the scrollbar */
-  }
-
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background: #f0f0f0; /* Track color */
-  }
-
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background-color: #888; /* Thumb color */
-    border-radius: 4px; /* Rounded corners */
-    border: 2px solid #f0f0f0; /* Padding around thumb */
-  }
-
-  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background-color: #555; /* Thumb hover color */
-  }
-}
-
-
-/* 48em = 768px */
 
 @media (min-width: 48em) {
   .header li {
     float: left;
     
-  }
-  .header li a {
-    padding: 0px .5rem;
   }
   .header .menu {
     clear: none;

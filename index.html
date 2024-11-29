@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mtoto Kwanza Fund</title>
+     <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
     <link href="css/animation.css" rel="stylesheet">
@@ -36,10 +37,10 @@
             </ul>
             <div class="d-flex flex items-center justify-center space-x-4" role="search">
                 <div class="btn-wrap flex space-x-4">
-                  <a href="about-us.html" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal bg-white core-orange">Learn More
+                  <a href="#" data-modal-target="static-modal" data-modal-toggle="static-modal" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal bg-white core-orange">Birthday Pledges
                     <img src="images/icons/arrow-right-tint.svg" class="hvr-icon ml-1">
                 </a>
-                <a href="about-us.html" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal">Birthday Pledges
+                <a href="#" data-modal-target="static-modal-One" data-modal-toggle="static-modal-One"  class="global-btn hvr-radial-out hvr-icon-wobble-horizontal">Donate Now
                     <img src="images/icons/arrow-right-white.svg" class="hvr-icon ml-1">
                 </a>
             </div>
@@ -125,30 +126,21 @@
 </div>
 <img src="images/main-banner.png" class="w-full object-cover banner-mobile">
 </div>
-
-
-
 </div>
 <div class="absolute bottom-1/4 lg:inset-y-2/3 z-30 w-full">
     <div class="container mx-auto relative">
       <!-- If we need pagination -->
       <div class="icon-banner swiper-pagination"></div></div></div>
-
       <!-- If we need navigation buttons -->
       <div class="icon-banner swiper-button-prev"></div>
       <div class="icon-banner swiper-button-next"></div>
-
-
       <!-- If we need scrollbar -->
   </section>
-
-
-
 
   <!--who we are section-->
   <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
       <!-- Column 1 -->
-      <div class="tint-60-bg p-10 bg-orange-300 text-white">
+      <div class="tint-60-bg py-10 lg:py-10 px-5 lg:px-10 bg-orange-300 text-white">
         <h4 class="dark-blur">Who We Are</h4>
         <h2 class="mb-2">About Us</h2>
         <p class="mb-4">The Mtoto Kwanza Fund is World Vision Tanzania’s local resource development initiative.</p>
@@ -156,16 +148,16 @@
     </div>
 
     <!-- Column 2 --> 
-    <div class="tint-20-bg  p-10 bg-orange-300 text-white">
+    <div class="tint-20-bg py-10 lg:py-10 px-5 lg:px-10  bg-orange-300 text-white">
         <h4> Transform Lives</h4>
         <h2 class="mb-2">Pledge Your Birthday</h2>
         <p class="mb-4">Pledge your birthday to give back and transform the lives of vulnerable children.</p>
-        <a href="about-us.html" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal">Birthday Pledges<img src="images/icons/arrow-right-white.svg" class="hvr-icon ml-1"></a>
+        <a href="birthday-pledges.html" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal">Birthday Pledges<img src="images/icons/arrow-right-white.svg" class="hvr-icon ml-1"></a>
     </div>
 
 
     <!-- Column 3 -->
-    <div class="tint-33-bg p-10 bg-orange-300 text-white">
+    <div class="tint-33-bg py-10 lg:py-10 px-5 lg:px-10  bg-orange-300 text-white">
         <h4>Help Out</h4>
         <h2 class="mb-2 text-white">Become a Donor</h2>
         <p class="mb-4 text-white">Your donation of any amount can go a long way in transforming lives.</p>
@@ -175,20 +167,20 @@
 <!-- end who we are section-->
 
 <!--Home page Birthday pledges-->
-<section class="birthday-home faded-bg text-center py-20 pb-12">
-    <div class="container mx-auto px-4">
+<section class="birthday-home faded-bg text-center pt-10 xl:pt-10 2xl:pt-20 pb-10">
+    <div class="container mx-auto">
      <h4>October Pledges</h4>
-     <h2 class="mb-12">Birthday pledges</h2>
+     <h2 class="mb-10">Birthday pledges</h2>
      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-        <div class="tint-20-bg p-8 lg:px-6 lg:py-32 rounded-2xl mb-8 lg-mb-24">
+        <div class="tint-20-bg p-10 lg:px-6 lg:py-32 rounded-2xl mb-0 lg:-mb-20">
             <h2 class="mb-4 text-2xl animate animate--fade-in-top" data-animate="" data-animation="fade-in-top" data-animation-delay="500">Pledge<br> Your Birthday</h2>
             <p class="mb-4 animate animate--fade-in-top" data-animate="" data-animation="fade-in-top" data-animation-delay="500">
             Fill and submit the short registration form in the link below to pledge.</p>
             <div class="circle-black mx-auto mb-4 tint-33-bg text-white w-20 h-20 rounded-full flex justify-center items-center hvr-icon-wobble-vertical ">
                 <img src="images/icons/raise-hand.svg" class="w-11 h-11 rounded-full mx-auto hvr-icon inline-block" alt="Raise Hand">
             </div>
-            <a href="#" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal m-auto">Make Pledge<img src="images/icons/arrow-right-white.svg" class="hvr-icon ml-1" alt="Arrow Right"></a>
-            <a href="#" class="global-btn black  hvr-radial-out hvr-icon-wobble-horizontal m-auto mt-3">Current Pledges<img src="images/icons/arrow-right-white.svg" class="hvr-icon ml-1" alt="Arrow Right"></a>
+            <a href="#" data-modal-target="static-modal" data-modal-toggle="static-modal" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal m-auto">Make Pledge<img src="images/icons/arrow-right-white.svg" class="hvr-icon ml-1" alt="Arrow Right"></a>
+            <a href="birthday-pledges.html" class="global-btn black  hvr-radial-out hvr-icon-wobble-horizontal m-auto mt-3">Current Pledges<img src="images/icons/arrow-right-white.svg" class="hvr-icon ml-1" alt="Arrow Right"></a>
         </div>
         <!---social media-->
         <div class="wrap-cont" data-aos="fade-up" data-aos-duration="3000">
@@ -264,7 +256,7 @@
 <!--End Birthday pledges-->
 
 <!-- Partners and data counter section -->
-<section class="bg-white py-10 lg:py-20 px-8 text-center">
+<section class="bg-white py-10 xl:py-10 2xl:py-20 px-8 text-center">
     <!-- Achievements Section -->
     <div class="max-w-5xl mx-auto px-4 pb-10 overflow-hidden">
         <h4>What We’re Proud Of</h4>
@@ -349,10 +341,10 @@
                     </div>
                 </section>
                 <!--How You can help--->
-                <section  class="relative mt-auto py-16  border-t-2 bg-cente text-white px-4 lg:px-16 text-xs text-base">
+                <section  class="relative mt-auto py-10 xl:py-10 2xl:py-20  border-t-2 bg-cente text-white px-6 lg:px-16 text-xs text-base">
                     <div class="absolute inset-0 z-10" style="background-image: url('images/footer-banner.jpeg'); background-repeat: no-repeat; filter: blur(16px);"></div>
                     <div class="absolute inset-0 bg-char opacity-90 z-20"></div>
-                    <div class="max-w-6xl mx-auto px-4 relative z-50">
+                    <div class="max-w-6xl mx-auto relative z-50">
                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap:20 lg:gap-20">
                          <div class="mb-12 md:mb-0 lg:mb-0 text-white">
                              <h4> How You can help</h4>
@@ -367,7 +359,6 @@
                      </div>
 
                      <div class="text-white border-slate-100 rounded-2xl border py-10 px-12 text-left">
-
                         <h2 class="mb-4 text-white">Subscribe To <br>Our Newsletter</h2>
                         <form class="space-y-4">
                             <label for="html" class="font-bold">Name*</label>
@@ -376,25 +367,112 @@
                             <input type="email" placeholder="Your email" class="w-full py-2 px-4 border-slate-100 rounded-md border focus:outline-none focus:ring-2 focus:ring-orange-500 custom-gray">
                             <button type="submit" class=" mt-4 global-btn hvr-radial-out hvr-icon-wobble-horizontal bg-white core-orange">Subscribe <img src="images/icons/arrow-right-tint.svg" class="hvr-icon ml-1"></button>
                         </form>
-
                     </div>
-
                 </div>
-
             </div>
-
-
-
         </div>
-
     </div>
 </section>
-<section class="h-9" style="height:300px;"></section>
+
+<!---our blogs--->
+<section class="our-blogs bg-white pb-0 pt-10 lg:py-10 mb-52 px-6">
+ <div class="max-w-6xl mx-auto">
+  <div class="flex justify-between items-start">
+  <div>
+    <h4>Our Blog</h4>
+    <h2 class="mb-12">Articles on our<br>projects and initiatives</h2>
+  </div>
+  <div>
+    <a href="our-stories.html" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal mt-1">More Articles
+      <img src="images/icons/arrow-right-white.svg" class="hvr-icon ml-1">
+    </a>
+  </div>
+</div>
+
+
+  <!-- Grid wrapper -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 lg:space-x-11">
+    <!-- Columns -->
+    <div class="w-full" data-aos="fade-up" data-aos-duration="3000">
+        <div class="blog-img max-h-280px min-h-280px rounded-xl bg-cover bg-center" style="background-image:url('images/blog-stories.jpeg');">
+            <div class="dark-blur-bg rounded-tl-2xl rounded-br-2xl  p-4 w-max"><h3 class="text-white font-bold text-center">18</h3><span class="Month text-white text-center block text-base ">March</span></div>
+        </div>
+        <div class="flex tint-33 mt-4 text-sm lg:text-base tint-33"><img src="images/icons/profile.svg" class="ml-1"><span class="user pr-4">Joshua M.</span><img src="images/icons/clock.svg" class="mr-1"><span class="time">10:00 AM</span></div>
+        <hr class="mx-auto mt-4 mb-2 px-4 border-r-slate-200">
+        <h2 class="text-xl lg:text-2xl mb-2">Education for Children</h2>
+        <p class="mb-4 text-base">Labore ipsum Lorem Lorem eu est id consectetur enim officia esse aute commodo.</p>
+        <a href="our-stories.html" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal mt-1">Read more<img src="images/icons/arrow-right-white.svg" class="hvr-icon ml-1"></a>
+    </div>
+
+    <!--article blog one-->
+    <div class="w-full pb-4 mt-10 lg:mt-0">
+        <!-- list one-->
+        <div class="list-div pb-4 border-r-slate-200 border-b mb-4 flex flex-row" data-aos="fade-up" data-aos-duration="3000">
+            <div class="max-w-max  pr-4 flex-none">
+                <div class="dark-blur-bg rounded-2xl p-4 w-max">
+                    <h3 class="text-white font-bold text-center">18</h3>
+                    <span class="Month text-white text-center block text-base">March</span>
+                </div>
+            </div>
+            <div class="max-w-max flex flex-col justify-center">
+                <div class="flex tint-33 text-sm lg:text-base items-center mb-2">
+                    <img src="images/icons/profile.svg" class="ml-1">
+                    <span class="user pr-4">Joshua M.</span>
+                    <img src="images/icons/clock.svg" class="mr-1">
+                    <span class="time">10:00 AM</span>
+                </div>
+                <h2 class="text-2xl mb-2">Education for Children</h2>
+                <p class="mb-0 text-base">Labore ipsum Lorem Lorem eu est id consectetur enim officia esse aute commodo.</p>
+            </div>
+        </div>
+            <!-- list one-->
+ <div class="list-div pb-4 border-r-slate-200 border-b mb-4 flex flex-row" data-aos="fade-up" data-aos-duration="3000">
+    <div class="max-w-max  pr-4 flex-none">
+        <div class="dark-blur-bg rounded-2xl p-4 w-max">
+            <h3 class="text-white font-bold text-center">18</h3>
+            <span class="Month text-white text-center block text-base">March</span>
+        </div>
+    </div>
+    <div class="max-w-max flex flex-col justify-center">
+        <div class="flex tint-33 text-sm lg:text-base  items-center mb-2">
+            <img src="images/icons/profile.svg" class="ml-1">
+            <span class="user pr-4">Joshua M.</span>
+            <img src="images/icons/clock.svg" class="mr-1">
+            <span class="time">10:00 AM</span>
+        </div>
+        <h2 class="text-2xl mb-2">Education for Children</h2>
+        <p class="mb-0 text-base">Labore ipsum Lorem Lorem eu est id consectetur enim officia esse aute commodo.</p>
+    </div>
+</div>
+    <!-- list one-->
+ <div class="list-div pb-4 mb-4 flex flex-row" data-aos="fade-up" data-aos-duration="3000">
+    <div class="max-w-max  pr-4 flex-none">
+        <div class="dark-blur-bg rounded-2xl p-4 w-max">
+            <h3 class="text-white font-bold text-center">18</h3>
+            <span class="Month text-white text-center block text-base">March</span>
+        </div>
+    </div>
+    <div class="max-w-max flex flex-col justify-center">
+        <div class="flex tint-33 text-sm lg:text-base  items-center mb-2">
+            <img src="images/icons/profile.svg" class="ml-1">
+            <span class="user pr-4">Joshua M.</span>
+            <img src="images/icons/clock.svg" class="mr-1">
+            <span class="time">10:00 AM</span>
+        </div>
+        <h2 class="text-2xl mb-2">Education for Children</h2>
+        <p class="mb-4 text-base">Labore ipsum Lorem Lorem eu est id consectetur enim officia esse aute commodo.</p>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+<!-- Grid wrapper -->
+</section> 
 <!--footer--->
 <footer class="footer relative mt-auto  pb-10 border-t-2 bg-center text-white px-4 lg:px-16 text-xs text-center text-base">
  <div class="absolute inset-0 z-10" style="background-image: url('images/footer-banner.jpeg'); background-repeat: no-repeat; filter: blur(16px);"></div>
  <div class="absolute inset-0 bg-custom opacity-80 z-20"></div>
- <div class="xl:container mx-auto px-4 py-9 z-30 tint-20-bg rounded-2xl z-50 relative mb-9 -mt-52">
+ <div class="xl:container mx-auto px-4 py-9 z-30 tint-20-bg rounded-2xl z-50 relative mb-0 -mt-52">
    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-0 lg:gap-20">
     <div class="flex-1 ">
         <img src="images/get-involve-img.png" class="mb-8 lg:mb-0 w-full animate animate--fade-in" data-animate="" data-animation="fade-in">
@@ -425,8 +503,8 @@
         <a href="contact-us.html" class="p-4 hover:text-orange-500 hvr-wobble-to-bottom-right">Contact Us</a>
     </div>
 </div>
-<div class="flex justify-center gap-10 py-4 z-50 relative">
-    <div class="hvr-icon-spin"><img src="images/icons/facebook.svg" class="mx-2 hvr-icon"></div>
+<div class="flex justify-center gap-0 py-4 z-50 relative mt-8">
+     <div class="hvr-icon-spin"><img src="images/icons/facebook.svg" class="mx-2 hvr-icon"></div>
     <div class="hvr-icon-spin"><img src="images/icons/instagram.svg" class="mx-2 hvr-icon"></div>
     <div class="hvr-icon-spin"><img src="images/icons/youtube.svg" class="mx-2 hvr-icon"></div>
     <div class="hvr-icon-spin"><img src="images/icons/twitter.svg" class="mx-2 hvr-icon"></div>
@@ -437,8 +515,245 @@
         <span class="px-1" id="copyrightYear">© 2024</span>World Vision International. All rights reserved
     </p>
 </div>
-
 </footer>
+<!-- Pledge Birthday Form Main modal -->
+<div id="static-modal" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden absolute top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0">
+    <div class="relative p-4 max-w-4xl ">
+        <!-- Modal content -->
+        <div class="relative">
+            <!-- Modal header -->
+            <div class="grid grid grid-cols-1 sm:grid-cols-2 flex items-center justify-between tint-20-bg rounded-t-2xl">
+                <h3 class= "text-xl font-semibold text-gray-900 dark:text-white "></h3>
+                <div class="bg-white block rounded-r-2xl rounded-br-none">
+                    <button type="button" class="float-right ml-auto mr-2 mt-2 cirlce bg-gray-800 leading-5 rounded-full  text-white hover:bg-gray-200 hover:text-white rounded-lg text-sm w-6 h-6 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white hvr-icon-spin" data-modal-hide="static-modal">
+                        <svg class="w-2 h-2 hvr-icon inline-block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"></path>
+                        </svg>
+                        <span class="sr-only">Close modal</span>
+                    </button></div>
+                </div>   
+                <!-- Modal body -->
+                <div class="p-0 ">
+                    <div class="grid grid-cols-1 sm:grid-cols-2">
+                        <div class="tint-20-bg text-white p-10 pt-5 rounded-t-none rounded-ss-none rounded-bl-2xl">
+                            <h4 class="animate animate--fade-in-left" data-animate="" data-animation="fade-in-left" data-animation-delay="500">Pledge Your Birthday</h4>
+                            <h2 class="mb-2 text-3xl animate animate--fade-in-right" data-animate="" data-animation="fade-in-right" data-animation-delay="500">Raise funds during your birthday</h2>
+                            <p class="mb-8 animate animate--fade-in-top text-grey" data-animate="" data-animation="fade-in-top" data-animation-delay="500">This form will act as your pledge to help us raise funds during your birthday week however little the amount. After submission, you will receive an email later on with all the details and a guide on what your post on social media should look like.</p>
+                            <!-- list one-->
+                            <div class="list-div pb-4 mb-2 ml-2 flex flex-row animate animate--fade-in-top" data-animate="" data-animation="fade-in-top" data-animation-delay="500">
+                                <div class="max-w-max  pr-4 flex-none">
+                                    <div class="core-orange-bg w-16 h-16 rounded-full flex justify-center items-center text-2xl">01</div>
+                                </div>
+                                <div class="max-w-max flex flex-col justify-center">
+                                    <h2 class="text-xl mb-2">Create a personal profile</h2>
+                                    <p class="-mt-2 mb-0 text-sm text-grey">Fill in the form with your details.</p>
+                                </div>
+                            </div>
+                            <!-- list one-->
+                            <div class="list-div pb-4 mb-2 ml-2 flex flex-row animate animate--fade-in-top" data-animate="" data-animation="fade-in-top" data-animation-delay="500">
+                                <div class="max-w-max  pr-4 flex-none">
+                                    <div class="core-orange-bg w-16 h-16  rounded-full flex justify-center items-center text-2xl">02</div>
+                                </div>
+                                <div class="max-w-max flex flex-col justify-center">
+                                    <h2 class="text-xl mb-2">Include Your Email</h2>
+                                    <p class="-mt-2 mb-0 text-sm text-grey">So we can reach you with additional details</p>
+
+                                </div>
+                            </div>
+                            <!-- list one-->
+                            <div class="list-div pb-4 mb-2 ml-2 flex flex-row animate animate--fade-in-top" data-animate="" data-animation="fade-in-top" data-animation-delay="500">
+                                <div class="max-w-max  pr-4 flex-none">
+                                    <div class="core-orange-bg w-16 h-16 rounded-full flex justify-center items-center text-2xl">03</div>
+                                </div>
+                                <div class="max-w-max flex flex-col justify-center">
+                                    <h2 class="text-xl mb-2">Choose your Online Profiles</h2>
+                                    <p class="-mt-2 mb-0 text-sm text-grey">Select your preferred social media profiles.</p>
+                                </div>
+                            </div>
+                            <div class="list-div pb-4 mb-2 ml-2  flex flex-row animate animate--fade-in-top" data-animate="" data-animation="fade-in-top" data-animation-delay="500">
+                                <div class="max-w-max  pr-4 flex-none">
+                                    <div class="core-orange-bg w-16 h-16 rounded-full flex justify-center items-center text-2xl">04</div>
+                                </div>
+                                <div class="max-w-max flex flex-col justify-center">
+                                    <h2 class="text-xl mb-2">Submit the Form</h2>
+                                    <p class="-mt-2 mb-0 text-sm text-grey">Complete registration to start pledging your birthday.</p>
+                                </div>
+                            </div>
+                            <!--buttons section-->
+                            <div class="block pt-5 animate animate--fade-in-top" data-animate="" data-animation="fade-in-top" data-animation-delay="500">
+                                <a href="birthday-pledges.html" class="global-btn black  hvr-radial-out hvr-icon-wobble-horizontal mr-auto">View Current Pledges<img src="images/icons/arrow-right-white.svg" class="hvr-icon ml-1" alt="Arrow Right"></a>
+                                <a href="pledges-impact.html" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal bg-white core-orange mt-4">See Impact of Pledges<img src="images/icons/arrow-right-tint.svg" class="hvr-icon ml-1"></a>
+                            </div>
+                        </div>
+                        <div class="bg-white text-white p-10 pt-5 rounded-r-none rounded-br-2xl rounded-tr-none">
+                            <!--birthday pledge form --->
+                            <form>
+                              <div class="mb-4">
+                                <label for="name" class="block text-sm font-bold text-black mb-2">Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" class="mt-1 block w-full px-3 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm">
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="job-title" class="block text-sm font-bold text-black mb-2">Job Title</label>
+                                <input type="text" id="job-title" name="job-title" placeholder="Job title" class="mt-1 block w-full px-3 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm">
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="phone-number" class="block text-sm font-bold text-black mb-2">Phone Number</label>
+                                <div class="flex">
+                                  <select id="country-code" name="country-code" class="mr-2 block w-20 px-3 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm">
+                                    <option value="+255" selected>+255</option>
+                                    <!-- Add other country codes here -->
+                                </select>
+                                <input type="tel" id="phone-number" name="phone-number" placeholder="Phone number" class="flex-1 block w-full px-3 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm">
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="email" class="block text-sm font-bold text-black mb-2">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="mail@mail.com" class="mt-1 block w-full px-3 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="birthday" class="block text-sm font-bold text-black mb-2">Birthday</label>
+                            <div class="flex space-x-2">
+                              <select id="month" name="month" class="block w-1/2 px-3 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm">
+                                <option value="" disabled selected>Month</option>
+                                <!-- Add month options here -->
+                            </select>
+                            <select id="year" name="year" class="block w-1/2 px-3 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm">
+                                <option value="" disabled selected>Year</option>
+                                <!-- Add year options here -->
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="block text-sm font-bold text-black mb-2">Preferred social media platform</label>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                          <label class="flex items-center w-2/5">
+                            <span class="custom-checkbox">
+                              <input type="checkbox" name="social-media" value="Facebook">
+                              <span class="checkmark"></span>
+                          </span>
+                          <span class="ml-2 text-sm tints-grey">Facebook</span>
+                      </label>
+                      <label class="flex items-center w-2/5">
+                        <span class="custom-checkbox">
+                          <input type="checkbox" name="social-media" value="Instagram">
+                          <span class="checkmark"></span>
+                      </span>
+                      <span class="ml-2 text-sm tints-grey ">Instagram</span>
+                  </label>
+                  <label class="flex items-center w-2/5">
+                    <span class="custom-checkbox">
+                      <input type="checkbox" name="social-media" value="Twitter">
+                      <span class="checkmark"></span>
+                  </span>
+                  <span class="ml-2 text-sm tints-grey">Twitter</span>
+              </label>
+              <label class="flex items-center w-2/5">
+                <span class="custom-checkbox">
+                  <input type="checkbox" name="social-media" value="LinkedIn">
+                  <span class="checkmark"></span>
+              </span>
+              <span class="ml-2 text-sm tints-grey">LinkedIn</span>
+          </label>
+      </div>
+  </div>
+
+  <div class="mb-4">
+    <label class="block text-sm font-bold text-black mb-2">How did you learn about this initiative? (Tick appropriately)</label>
+    <div class="flex flex-wrap gap-2 mt-2">
+      <label class="flex items-center w-full">
+        <span class="custom-checkbox">
+          <input type="checkbox" name="Through-social-media" value="Through Social Media">
+          <span class="checkmark"></span>
+      </span>
+      <span class="ml-2 text-sm tints-grey">Through Social Media</span>
+  </label>
+  <label class="flex items-center w-full">
+    <span class="custom-checkbox">
+      <input type="checkbox" name="Through-a-friend value" value="Through a friend">
+      <span class="checkmark"></span>
+  </span>
+  <span class="ml-2 text-sm tints-grey ">Through a friend</span>
+</label>
+<label class="flex items-center w-full">
+    <span class="custom-checkbox">
+      <input type="checkbox" name="please-specify" value="Other">
+      <span class="checkmark"></span>
+  </span>
+  <span class="ml-2 text-sm tints-grey ">Other (please specify)</span>
+</label>
+
+</div>
+</div>
+
+<div class="text-left flex mt-b">
+    <button id="submit-btn" type="submit" data-modal-target="static-modal-thankYou" data-modal-toggle="static-modal" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal mt-3 text-base">Submit<img src="images/icons/arrow-right-white.svg" class="hvr-icon ml-1" alt="Arrow Right"></button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--Donate form modal--->
+<div id="static-modal-One" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden absolute top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 max-w-sm max-h-full">
+        <!-- Modal header -->
+        <div class="rounded-r-2xl rounded-br-none"> 
+            <!-- Modal body -->
+            <div class="p-0 ">
+                <div class="grid grid-cols-1 tint-20-bg rounded-2xl">
+                    <button type="button" class="float-right ml-auto mr-2 mt-2 cirlce bg-gray-800 leading-5 rounded-full  text-white hover:bg-gray-200 hover:text-white rounded-lg text-sm w-6 h-6 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white hvr-icon-spin" data-modal-hide="static-modal-One">
+                <svg class="w-2 h-2 hvr-icon inline-block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"></path>
+                </svg>
+                <span class="sr-only">Close modal</span>
+            </button>
+                    <div class="text-white p-10 pt-5">
+                        <h4 class="animate animate--fade-in-left" data-animate="" data-animation="fade-in-left" data-animation-delay="500">Donate for a great cause</h4>
+                        <h2 class="mb-2 text-xl animate animate--fade-in-right" data-animate="" data-animation="fade-in-right" data-animation-delay="500">Donate to Mtoto Kwanza Fund</h2>
+                        <p class="mb-8 animate animate--fade-in-top text-grey" data-animate="" data-animation="fade-in-top" data-animation-delay="500">Donate now by continuing the process online or on mobile using the code <b>*483*26#.</b></p>
+                        <h2 class="mb-2 text-xl animate animate--fade-in-right" data-animate="" data-animation="fade-in-right" data-animation-delay="500">Donation Options</h2>
+                        <p class="mb-8 animate animate--fade-in-top text-grey" data-animate="" data-animation="fade-in-top" data-animation-delay="500">You can donate via PayPal or M-Pesa. You can also donate once or monthly. Please select the appropriate options below.</p>
+                        <div class="block pt-5 animate animate--fade-in-top" data-animate="" data-animation="fade-in-top" data-animation-delay="300">
+                            <a href="birthday-pledges.html" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal mr-auto" style="background-image:url(images/arrow.svg); background-repeat:no-repeat; background-position:center right;">Donate Via<img src="images/mpesa.png" class="hvr-icon ml-1 mpesa" alt="Arrow Right"></a>
+                            <a href="pledges-impact.html" class="global-btn hvr-radial-out hvr-icon-wobble-horizontal bg-white core-orange mt-4">Donate via PayPal<img src="images/icons/arrow-right-tint.svg" class="hvr-icon ml-1"></a>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- modal thank you message-->
+<div id="static-modal-thankYou" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-xs max-h-full">
+        <!-- Modal content -->
+        <div class="relative rounded-2xl">
+            <!-- Modal body -->
+            <div class="p-4 md:p-5 space-y-4 tint-20-bg rounded-2xl">
+                    <button type="button" class="float-right ml-auto mr-2 mt-2 cirlce bg-gray-800 leading-5 rounded-full  text-white hover:bg-gray-200 hover:text-white rounded-lg text-sm w-6 h-6 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white hvr-icon-spin" data-modal-hide="static-modal-thankYou">
+                <svg class="w-2 h-2 hvr-icon inline-block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"></path>
+                </svg>
+                <span class="sr-only">Close modal</span>
+            </button>
+             <h2 class="core-orange">Thank You!!!</h2>
+             <p>Our goal is to contribute to child well-being outcomes by growing local resources for projects and programs that help children, especially the most vulnerable ones.</p>
+             <p>Your donation will go a long way in transforming lives.</p>
+            </div>
+            <!-- Modal footer -->
+        </div>
+    </div>
+</div>
 
 <!--script galore--->
 <script src="js/swiper-bundle.min.js"></script>

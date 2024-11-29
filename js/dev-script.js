@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
           spaceBetween: 20,
         },
         768: {
-          slidesPerView: 3,
+          slidesPerView: 2,
           spaceBetween: 30,
         },
         1024: {
@@ -124,12 +124,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // auto play youtube video
-
-
- document.getElementById('open-modal').addEventListener('click', function () {
-            document.getElementById('default-modal').classList.remove('hidden');
+ document.getElementById('static-modal-gallery').addEventListener('click', function () {
+            document.getElementById('static-modal-gallery').classList.remove('hidden');
         });
 
-        document.getElementById('close-modal').addEventListener('click', function () {
-            document.getElementById('default-modal').classList.add('hidden');
+        document.getElementById('static-modal-gallery').addEventListener('click', function () {
+            document.getElementById('static-modal-gallery').classList.add('hidden');
         });
+
+  //Phone field
+
+//Hide birthday pledge modal 
+document.addEventListener("DOMContentLoaded", function () {
+    const submitBtn = document.getElementById("submit-btn");
+    const modal = document.getElementById("static-modal");
+    const thankYouModal = document.getElementById("static-modal-thankYou");
+
+    submitBtn.addEventListener("click", function (event) {
+        event.preventDefault();
+        // Hide the current modal
+        modal.classList.add("hidden");
+        // Show the thank you modal
+        thankYouModal.classList.remove("hidden");
+    });
+});
+
+     
